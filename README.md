@@ -1,11 +1,9 @@
-![Picture 1](RackMultipart20211115-4-s8u0oh_html_ad6613d2e757996b.gif)
+![](ReadmeFiles/title.png)
+<br/><br/><br/><br/>
 
 # Repainting Creation
-
-A computer vision &amp; Generative Art Project - Guilherme Silva Gama 
-
-
-![](RackMultipart20211115-4-s8u0oh_html_a2696785d8e9eaee.png)
+## A computer vision &amp; Generative Art Project
+Author: Guilherme Silva Gama 
 
 #
 ## Context of the work
@@ -19,12 +17,12 @@ But when it comes to a digital generative art system how are these references tr
 Furthermore, considering an interactive digital system, another question could be raised. If a subject of interaction could influence the machine art generation process and if the starting point of this process was a pre-known artwork, at what point is the new generated piece considered itself original?
 
 With the intent of answering this question, the project denominated by &quot;Repainting Creation&quot; was developed. This project aims to re-shape some of the most famous classical paintings throughout the history (ex: Girl with a Pearl Earring by Vermeer). Using the subject&#39;s facial movements, he can influence the artwork motifs and expressions. The subject also dictates when the artwork is completed and, at the end, is presented with all its creations.
-
-![](RackMultipart20211115-4-s8u0oh_html_f6d35505d6ab9590.png)
+<br/><br/>
+![](ReadmeFiles/mainPainting.png)
 
 _Figure 1 – The painting before the particle system initiates_
+<br/><br/><br/><br/>
 
-#
 ## Related works
 
 Silicium2 - Carl Emil &amp; Bjørn Svin
@@ -33,7 +31,7 @@ Silicium2 is an audiovisual and synthetic-organic live performance [2] by the vi
 
 To virtualize the performer&#39;s body, the artist uses a Microsoft Kinect sensor, which tracks the body&#39;s movements and transmits that data to the interactive system. For the art generation, Carl Emil has developed a specialized graph framework in the game engine Unity.
 
-# ![](RackMultipart20211115-4-s8u0oh_html_1a24226428104eb2.png)
+![](ReadmeFiles/silicium.png)
 
 _Figure 2 - A screenshot from Silicium2 stage performance_
 
@@ -41,7 +39,7 @@ Generative portraits of classical music composers -thedotisblack
 
 This is a video-series about the process generating portraits based on original paintings [3]. In attempt to recreate the portraits of famous classical music composers (ex: Johann Sebastian Bach), the system can be seen reinterpreting the colors, contours and shades and shadows of the source image. Although many technical details were not publicly shared, the portrait generation was accomplished with the graphical library Processing.
 
-# ![](RackMultipart20211115-4-s8u0oh_html_aba9d9ace410a336.png)
+![](ReadmeFiles/bach.png)
 
 _Figure 3 - A screenshot of Bach generative portrait by thedotisblack_
 
@@ -60,28 +58,27 @@ System Behavior
 
 This system was designed to be interacted by one subject at time. Although the main focus of this system is the art generation itself, there three distinct scenes during the experience: the tutorial, the art generation and the gallery presentation.
 
-![](RackMultipart20211115-4-s8u0oh_html_595db828d4d7604e.png)
+![](ReadmeFiles/introScene.png)
 
 _Figure 4 - Tutorial scene displaying the subject&#39;s face_
+<br/><br/>
 
 Tutorial scene – In this scene the user is presented with a representation of his face on a virtual space and its facial position and rotation are translated into the camera view, much like in a VR experience. The purpose is for the user to self-calibrate and learn about all the possible controls available.
-
-![](RackMultipart20211115-4-s8u0oh_html_667f1826f2d88a4a.png) ![Shape3](RackMultipart20211115-4-s8u0oh_html_98d32fc9824e635f.gif)
+<br/><br/>
+![](ReadmeFiles/allPaintings.png)
 
 _Figure 5 - The different paintings generated_
-
+<br/><br/>
 Art Generation scene – After the introductory scene the player is presented with a series of random paintings, on at a time. Each painting is formed by a collection of colored particles, corresponding to the pixel data of the original image source on a scale of 1:1 (each pixel has its equivalent particle). Using the previously learnt controls, the subject can influence the particle system with its face XYZ position and rotation. To finish a panting the user must hold the space key.
 
 Gallery Presentation scene – After the third completed painting this scene begins, and it displays all the works done by the subject on a painting gallery/exhibition. The objective for this final scene is to make the subject reflect on the work accomplished.
-
-![](RackMultipart20211115-4-s8u0oh_html_40cea092d654af5e.png)
+<br/><br/>
+![](ReadmeFiles/gallery.png)
 
 _Figure 6 - The gallery presentation scene in action_
 
-#
+<br/><br/>
 
-
-#
 ## References
 
 | [1] | A. Kleon, Steal like an artist: 10 things nobody told you about being creative., Workman Publishing, 2012. |
