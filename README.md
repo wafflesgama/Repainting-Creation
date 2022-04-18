@@ -73,7 +73,7 @@ Art Generation scene – After the introductory scene the player is presented wi
 
 Gallery Presentation scene – After the third completed painting this scene begins, and it displays all the works done by the subject on a painting gallery/exhibition. The objective for this final scene is to make the subject reflect on the work accomplished.
 <br/><br/>
-![](ReadmeFiles/gallery.png)
+![](ReadmeFiles/wip2.gif)
 
 _Figure 6 - The gallery presentation scene in action_
 
